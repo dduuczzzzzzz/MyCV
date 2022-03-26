@@ -1,0 +1,72 @@
+.box {
+    width: 600px;
+    height: 1200px;
+    border: 5px 0px 0px solid rgb(180, 166, 166);
+    padding: 50px;  
+    margin: 20px;
+    color : grey transparent;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    transition: all 0.4s;
+    border-radius: 10px;
+}
+
+.name {
+    margin-right: auto;
+    margin-left: auto;
+    color: #333;
+    font-family: 'Open Sans  ', sans-serif;
+}   
+
+body {
+    background-color: rgb(188, 212, 219);
+    display: flex;
+    justify-content: center;
+}
+
+a:visited {
+    color: black;
+    display: inline-block;
+}
+
+a:hover {
+    color: rgb(87, 80, 80);
+    opacity: 1;
+}
+
+.about, .Skill, .Project, .School {
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    flex-direction: row;
+    padding-left: 230px;
+}
+
+.info1 {
+    padding-left: 202px;
+}
+
+ul li.icon-name {
+    margin-left: 10px;
+}
+
+.info3 {
+    padding-left: 178px;
+}
+
+.info4 {
+    padding-left: 152px;
+}
+
+.info2 {
+    padding-left: 190px;
+}
+
+.header1, .header2, .header3, .header4 {
+    text-decoration: underline;
+}
